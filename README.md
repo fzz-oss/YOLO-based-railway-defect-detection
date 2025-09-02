@@ -24,22 +24,23 @@ The project is divided into two parts: **Experiment 1** and **Experiment 2**.
 ```bash
 pip install -r requirements.txt
 
-### 2)Prepare the dataset
+### 2) Prepare the dataset
 Download the dataset from Railway-defect-detection
 and update the dataset path in configs/dataset.yaml.
 
-### 3)Run cross-validation (Experiment 1 & 2)
+### 3) Run cross-validation (Experiment 1 & 2)
 ```bash
 python scripts/complete_cv_evaluation.py
 
-### 4)Train the model with best hyperparameters (Experiment 2)
+### 4) Train the model with best hyperparameters (Experiment 2)
 ```bash
 python scripts/final_train.py
 
-### 5)Evaluate on the test set
+### 5) Evaluate on the test set
 ```bash
 python scripts/run_final_test.py
 
+---
 ## Results
 
 ### Test Results on the Dataset

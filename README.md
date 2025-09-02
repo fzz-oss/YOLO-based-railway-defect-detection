@@ -26,7 +26,7 @@ pip install -r requirements.txt
 ```
 
 ### 2) Prepare the dataset
-Download the dataset from Railway-defect-detection
+Download the dataset from [Railway-defect-detection](https://github.com/hy199248/Railway-defect-detection)
 and update the dataset path in configs/dataset.yaml.
 
 ### 3) Run cross-validation (Experiment 1 & 2)

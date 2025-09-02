@@ -1,0 +1,21 @@
+# Ignore training outputs
+runs/
+results/
+*.log
+
+# Ignore model weights
+*.pt
+*.pth
+
+# Ignore datasets
+datasets/
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+
+# Ignore temporary files
+__pycache__/
+*.pyc
+Add .gitignore to exclude datasets and weights

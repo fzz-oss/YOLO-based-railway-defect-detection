@@ -17,6 +17,28 @@ The project is divided into two parts: **Experiment 1** and **Experiment 2**.
   - `final_train.py` and `run_final_test.py`: designed for Experiment 2, where the best hyperparameters were selected, followed by training and evaluation on the test set.
 
 ---
+## Quick Start
+
+### 1) Install dependencies
+
+```bash
+pip install -r requirements.txt
+
+### 2)Prepare the dataset
+Download the dataset from Railway-defect-detection
+and update the dataset path in configs/dataset.yaml.
+
+### 3)Run cross-validation (Experiment 1 & 2)
+```bash
+python scripts/complete_cv_evaluation.py
+
+### 4)Train the model with best hyperparameters (Experiment 2)
+```bash
+python scripts/final_train.py
+
+### 5)Evaluate on the test set
+```bash
+python scripts/run_final_test.py
 
 ## Results
 

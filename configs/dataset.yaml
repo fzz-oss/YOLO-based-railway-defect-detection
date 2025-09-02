@@ -1,0 +1,6 @@
+train: ./ultralytics/datastes/train/images
+val: ./ultralytics/datastes/val/images
+
+nc: 4
+names: ['Spalling', 'Squat','Wheel Burn','Corrugation']
+
